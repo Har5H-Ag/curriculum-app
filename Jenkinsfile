@@ -1,9 +1,9 @@
 pipeline {
   agent any
   stages {
-    stage('Checkout code') {
+    stage('log') {
       steps {
-        git(url: 'https://github.com/Har5H-Ag/curriculum-app', branch: 'master')
+        sh 'ls -ls'
       }
     }
 
