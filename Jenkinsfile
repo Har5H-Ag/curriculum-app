@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('Checkout code') {
       steps {
-        git(url: 'github.com/Har5H-Ag/curriculum-app', branch: 'main')
+        git(url: 'https://github.com/Har5H-Ag/curriculum-app', branch: 'main')
       }
     }
 
